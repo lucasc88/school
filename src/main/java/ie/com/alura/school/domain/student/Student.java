@@ -17,6 +17,8 @@ public class Student {
 	private IRP irp;
 	private String name;
 	private Email email;
+	
+	private String password;
 
 	private List<Phone> phones = new ArrayList<>();
 	
