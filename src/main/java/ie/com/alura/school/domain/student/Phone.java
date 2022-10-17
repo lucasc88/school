@@ -1,4 +1,4 @@
-package school;
+package ie.com.alura.school.domain.student;
 
 public class Phone {
 

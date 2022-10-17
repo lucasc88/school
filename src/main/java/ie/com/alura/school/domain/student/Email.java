@@ -1,4 +1,4 @@
-package school;
+package ie.com.alura.school.domain.student;
 
 /**
  * This class is not an Entity because there is no attribute to identify a

@@ -1,9 +1,11 @@
-package school;
+package ie.com.alura.school.domain;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
+import ie.com.alura.school.domain.student.Email;
 
 class EmailTest {
 

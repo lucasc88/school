@@ -1,4 +1,4 @@
-package school;
+package ie.com.alura.school.domain.student;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,12 +26,12 @@ public class Student {
 		this.email = email;
 	}
 
-	public void addPhone(String ddd, String numero) {
-		this.phones.add(new Phone(ddd, numero));
+	public void addPhone(String code, String number) {
+		this.phones.add(new Phone(code, number));
 	}
 
-	public IRP getIrp() {
-		return irp;
+	public String getIrp() {
+		return irp.getNumber();
 	}
 
 	public void setIrp(IRP irp) {
@@ -46,8 +46,8 @@ public class Student {
 		this.name = name;
 	}
 
-	public Email getEmail() {
-		return email;
+	public String getEmail() {
+		return email.getAddress();
 	}
 
 	public void setEmail(Email email) {

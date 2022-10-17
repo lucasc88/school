@@ -1,4 +1,4 @@
-package school;
+package ie.com.alura.school.domain.student;
 
 /**
  * Class to create student and phones. It has a builder behaviour.

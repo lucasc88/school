@@ -1,6 +1,8 @@
-package school;
+package ie.com.alura.school.domain.recommendation;
 
 import java.time.LocalDateTime;
+
+import ie.com.alura.school.domain.student.Student;
 
 public class Recommendation {
 
