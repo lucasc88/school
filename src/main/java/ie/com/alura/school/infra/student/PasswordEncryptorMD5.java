@@ -2,6 +2,9 @@ package ie.com.alura.school.infra.student;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Iterator;
 
 import ie.com.alura.school.domain.student.PasswordEncryptor;
